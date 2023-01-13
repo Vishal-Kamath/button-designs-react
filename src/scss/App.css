@@ -71,8 +71,8 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65rem;
-  height: 65rem;
+  width: 100rem;
+  height: 100rem;
   border-radius: 50%;
   background-color: rgb(255, 70, 0);
   transition: all ease-in-out 0.75s;
@@ -107,8 +107,8 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 65rem;
-  height: 65rem;
+  width: 100rem;
+  height: 100rem;
   border-radius: 50%;
   background-color: white;
   transition: all ease-in-out 0.75s;
@@ -303,8 +303,11 @@
   display: none;
 }
 
-.mainContainer {
+.App {
   padding: 2rem max(4vw, (100vw - 110rem) / 2);
+}
+
+.mainContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5rem;
