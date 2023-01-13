@@ -1,13 +1,13 @@
 {
   "name": "buttons",
-  "homepage": "https://vishal-kamath.github.io/UI-designs-react.github.io",
+  "homepage": "https://vishal-kamath.github.io/ui-designs-react.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "vite",
