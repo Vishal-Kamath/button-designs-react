@@ -7,12 +7,19 @@ import './scss/App.css';
 
 function App() {
   return (
-    <div className="mainContainer">
-      <Button1Container />
-      <Button2Container />
-      <Button3Container />
-      <Button4Container />
-      <Select1Container />
+    <div className="App">
+      <div className="headings">Buttons</div>
+      <div className="mainContainer">
+        <Button1Container />
+        <Button2Container />
+        <Button3Container />
+        <Button4Container />
+      </div>
+
+      <div className="headings">Selects</div>
+      <div className="mainContainer">
+        <Select1Container />
+      </div>
     </div>
   );
 }

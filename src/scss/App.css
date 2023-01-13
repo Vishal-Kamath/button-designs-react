@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 .button1Container {
   display: flex;
   justify-content: center;
@@ -7,19 +8,19 @@
 }
 .button1Container .body {
   font-size: 3.5rem;
-  color: rgb(255, 70, 0);
+  color: #007af5;
 }
 .button1Container .button1 {
   width: 20rem;
   height: 5rem;
-  border: 0.25rem solid rgb(255, 70, 0);
+  border: 0.25rem solid #007af5;
   border-radius: 1rem;
   background-color: transparent;
-  color: rgb(255, 70, 0);
+  color: #007af5;
   font-size: 2rem;
 }
 .button1Container .button1:hover {
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   color: white;
 }
 
@@ -29,7 +30,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   transition: all ease-in-out 0.75s;
 }
 .button2Container .body {
@@ -44,7 +45,7 @@
   outline: 0;
   border-radius: 1rem;
   background-color: white;
-  color: rgb(255, 70, 0);
+  color: #007af5;
   font-size: 2rem;
   transition: all ease-in-out 0.75s;
 }
@@ -53,10 +54,10 @@
   background-color: white;
 }
 .clicked .body {
-  color: rgb(255, 70, 0);
+  color: #007af5;
 }
 .clicked .button2 {
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   color: white;
 }
 
@@ -74,7 +75,7 @@
   width: 100rem;
   height: 100rem;
   border-radius: 50%;
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   transition: all ease-in-out 0.75s;
 }
 .button3Container .body {
@@ -96,8 +97,8 @@
   border: 0;
   outline: 0;
   border-radius: 1rem;
-  background-color: rgb(255, 70, 0);
-  color: rgb(255, 70, 0);
+  background-color: #007af5;
+  color: #007af5;
   font-size: 2rem;
   transition: all ease-in-out 0.75s;
   overflow: hidden;
@@ -120,7 +121,7 @@
   height: 0;
 }
 .button3Container:has(.button3:hover) .body {
-  color: rgb(255, 70, 0);
+  color: #007af5;
 }
 .button3Container:has(.button3:hover) .button3 {
   color: white;
@@ -150,8 +151,8 @@
   left: 0;
   width: 100%;
   height: 4rem;
-  box-shadow: 0 0 10rem 10rem rgb(255, 70, 0);
-  background-color: rgb(255, 70, 0);
+  box-shadow: 0 0 10rem 10rem #007af5;
+  background-color: #007af5;
   z-index: -1;
   -webkit-animation: animateBackGround 10s ease-in-out infinite;
           animation: animateBackGround 10s ease-in-out infinite;
@@ -179,7 +180,7 @@
   outline: 0;
   border-radius: 1rem;
   background-color: white;
-  color: rgb(255, 70, 0);
+  color: #007af5;
   font-size: 2rem;
   transition: all ease-in-out 0.75s;
   overflow: hidden;
@@ -199,7 +200,7 @@
   height: 100%;
   visibility: hidden;
   scale: 0;
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   transition: all ease-in-out 0.4s;
 }
 .button4Container .newPage-grid .display {
@@ -234,7 +235,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 70, 0);
+  background-color: #007af5;
   padding: 1rem;
   color: white;
 }
@@ -242,7 +243,7 @@
   position: absolute;
   top: 20%;
   width: 80%;
-  background-color: #b33100;
+  background-color: #0054a9;
   border-radius: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -275,7 +276,7 @@
   transform: translate(7px, -7px);
   display: grid;
   place-items: center;
-  color: rgb(255, 70, 0);
+  color: #007af5;
   font-size: 2rem;
 }
 .select1Container .select1 .selectContainer button svg {
@@ -307,6 +308,20 @@
   padding: 2rem max(4vw, (100vw - 110rem) / 2);
 }
 
+.headings {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #007af5;
+  border-bottom: 3px solid #007af5;
+  padding: 2rem 0;
+  margin: 2rem 0;
+  color: #ffa500;
+}
+.headings:nth-child(1) {
+  margin-top: 0;
+}
+
 .mainContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -324,7 +339,7 @@
 }
 .mainContainer .container {
   aspect-ratio: 1;
-  outline: 0.25rem solid rgb(255, 70, 0);
+  outline: 0.25rem solid #007af5;
   border-radius: 2rem;
   isolation: isolate;
 }
@@ -335,8 +350,10 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Varela Round", sans-serif;
 }
 
 body {
   margin: 0;
+  background-color: #001f3d;
 }/*# sourceMappingURL=App.css.map */

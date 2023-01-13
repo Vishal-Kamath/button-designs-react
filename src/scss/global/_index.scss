@@ -4,13 +4,15 @@
 @forward 'button4';
 @forward 'select1';
 @forward 'mainContainer';
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
+  font-family: 'Varela Round', sans-serif;
 }
 body {
   margin: 0;
+  background-color: #001f3d;
 }
