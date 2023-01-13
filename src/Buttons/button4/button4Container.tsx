@@ -19,19 +19,12 @@ const handleClick = async () => {
   newPageGrid.style.zIndex = '999';
   const newPageGridItems = document.getElementsByClassName('newPage-grid-item');
 
-  displayGrid(newPageGridItems);
-  await new Promise((resolve) =>
-    setTimeout(() => {
-      displayGrid(newPageGridItems);
-      return resolve;
-    }, 2000)
-  );
-
-  await new Promise((resolve) =>
-    setTimeout(() => {
+  await displayGrid(newPageGridItems);
+  await new Promise(() =>
+    setTimeout(async () => {
+      await displayGrid(newPageGridItems);
       newPageGrid.style.zIndex = '-1';
-      return resolve;
-    }, 1500)
+    }, 500)
   );
 };
 
