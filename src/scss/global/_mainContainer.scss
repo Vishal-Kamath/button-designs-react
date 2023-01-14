@@ -1,6 +1,6 @@
 @use '../utilities/variables' as *;
 
-.App {
+main {
   padding: 2rem max(4vw, calc((100vw - 110rem) / 2));
 }
 
@@ -12,7 +12,6 @@
   border-bottom: 3px solid $accent-color;
   padding: 2rem 0;
   margin: 2rem 0;
-  color: #ffa500;
   &:nth-child(1) {
     margin-top: 0;
   }

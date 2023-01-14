@@ -1,0 +1,49 @@
+.toggle {
+  position: relative;
+  width: 3.5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #ebf5ff;
+
+  input {
+    margin: 0;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 3.5rem;
+    height: 2rem;
+    opacity: 0;
+  }
+
+  .slider {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    display: grid;
+    place-items: center;
+    transition: all 0.2s ease-in-out;
+    background-color: yellow;
+    color: yellow;
+    svg:nth-child(2) {
+      display: none;
+    }
+  }
+
+  &:has(input[type='checkbox']:checked) {
+    background-color: #001f3d;
+  }
+
+  &:has(input[type='checkbox']:checked) .slider {
+    left: 1.75rem;
+    background-color: #001f3d;
+    svg:nth-child(2) {
+      display: block;
+    }
+  }
+}
